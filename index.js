@@ -37,9 +37,6 @@ class Mkulima{
     this.vendor = [];
 }
 
-// addVendor( id, storeName, phoneNumber){
-//     return this.vendor.push(id, storeName, phoneNumber);
-// }
 addFarm (farmId, name,farmer,phone,address){
     return this.farms.push({farmId,name,farmer,phone,address});
 }
